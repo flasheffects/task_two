@@ -1,10 +1,9 @@
 jobs:
-   build:
-     docker:
+  build:
+    docker:
       - image: cimg/node:17.0.1
-     steps:
+    steps:
         - checkout
-        - node/with-cache:
         - run: node --version
         - run: npm ci
         - run: npm test
