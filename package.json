@@ -1,0 +1,23 @@
+{
+    "name": "task_2",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "test": "jest --watchAll"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/flasheffects/tests/tree/main/task_2.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "homepage": "https://github.com/flasheffects/tests/tree/main/task_2.git#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "jest": "^27.3.1",
+        "supertest": "^6.1.6"
+    }
+}
